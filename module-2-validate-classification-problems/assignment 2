@@ -171,11 +171,11 @@
       "metadata": {
         "id": "TcpoWCUq5xNV",
         "colab_type": "code",
+        "outputId": "2a11f565-3bbd-4d72-bf82-15d68ebd6def",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 544
-        },
-        "outputId": "2a11f565-3bbd-4d72-bf82-15d68ebd6def"
+        }
       },
       "cell_type": "code",
       "source": [
@@ -228,7 +228,7 @@
         "plt.figure(figsize=(10, 6))\n",
         "plot_decision_regions(X_val, y_val, model, legend=0);"
       ],
-      "execution_count": 2,
+      "execution_count": 0,
       "outputs": [
         {
           "output_type": "stream",
@@ -383,17 +383,17 @@
       "metadata": {
         "id": "S-oHbkK1X1h2",
         "colab_type": "code",
+        "outputId": "47389a60-5a5d-46a8-b038-82db2dba284e",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 204
-        },
-        "outputId": "47389a60-5a5d-46a8-b038-82db2dba284e"
+        }
       },
       "cell_type": "code",
       "source": [
         "!wget https://archive.ics.uci.edu/ml/machine-learning-databases/00222/bank-additional.zip"
       ],
-      "execution_count": 3,
+      "execution_count": 0,
       "outputs": [
         {
           "output_type": "stream",
@@ -419,17 +419,17 @@
         "id": "1INLmiipZA-y",
         "colab_type": "code",
         "cellView": "both",
+        "outputId": "8cfd123e-5090-4996-fc76-42dfe7f0f2a6",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 204
-        },
-        "outputId": "8cfd123e-5090-4996-fc76-42dfe7f0f2a6"
+        }
       },
       "cell_type": "code",
       "source": [
         "!unzip bank-additional.zip"
       ],
-      "execution_count": 4,
+      "execution_count": 0,
       "outputs": [
         {
           "output_type": "stream",
@@ -454,17 +454,17 @@
       "metadata": {
         "id": "HwWCY5XrZCWk",
         "colab_type": "code",
+        "outputId": "4f807192-6055-4d50-b5f7-6b7238581d2b",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 34
-        },
-        "outputId": "4f807192-6055-4d50-b5f7-6b7238581d2b"
+        }
       },
       "cell_type": "code",
       "source": [
         "%cd bank-additional"
       ],
-      "execution_count": 5,
+      "execution_count": 0,
       "outputs": [
         {
           "output_type": "stream",
@@ -599,17 +599,17 @@
       "metadata": {
         "id": "HVlXcinHxzGS",
         "colab_type": "code",
+        "outputId": "11f6ec91-b5f4-47c4-a07b-6197b3e46acf",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 204
-        },
-        "outputId": "11f6ec91-b5f4-47c4-a07b-6197b3e46acf"
+        }
       },
       "cell_type": "code",
       "source": [
         "!wget https://archive.ics.uci.edu/ml/machine-learning-databases/00222/bank-additional.zip"
       ],
-      "execution_count": 9,
+      "execution_count": 0,
       "outputs": [
         {
           "output_type": "stream",
@@ -634,17 +634,17 @@
       "metadata": {
         "id": "psuAF5YfyIrm",
         "colab_type": "code",
+        "outputId": "2380f64c-7c79-444b-c128-02c59e9d786f",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 204
-        },
-        "outputId": "2380f64c-7c79-444b-c128-02c59e9d786f"
+        }
       },
       "cell_type": "code",
       "source": [
         "!unzip bank-additional.zip"
       ],
-      "execution_count": 10,
+      "execution_count": 0,
       "outputs": [
         {
           "output_type": "stream",
@@ -669,17 +669,17 @@
       "metadata": {
         "id": "0qI3Jxo5yLYO",
         "colab_type": "code",
+        "outputId": "c86f3d08-0fa6-4a2b-fed2-25b6f6013894",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 34
-        },
-        "outputId": "c86f3d08-0fa6-4a2b-fed2-25b6f6013894"
+        }
       },
       "cell_type": "code",
       "source": [
         "%cd bank-additional"
       ],
-      "execution_count": 11,
+      "execution_count": 0,
       "outputs": [
         {
           "output_type": "stream",
@@ -712,18 +712,18 @@
       "metadata": {
         "id": "lWqhI2e0yQdp",
         "colab_type": "code",
+        "outputId": "628f0c11-ba1e-43ff-cb17-ba541f66bd7b",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 224
-        },
-        "outputId": "628f0c11-ba1e-43ff-cb17-ba541f66bd7b"
+        }
       },
       "cell_type": "code",
       "source": [
         "pd.set_option('display.max_columns', 500)\n",
         "bank.head()"
       ],
-      "execution_count": 14,
+      "execution_count": 0,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -992,11 +992,11 @@
       "metadata": {
         "id": "bvMG7VUV1Cb0",
         "colab_type": "code",
+        "outputId": "d4eb2122-3ea9-4f01-ecf7-dcbdc6cc3135",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 34
-        },
-        "outputId": "d4eb2122-3ea9-4f01-ecf7-dcbdc6cc3135"
+        }
       },
       "cell_type": "code",
       "source": [
@@ -1006,7 +1006,7 @@
         "\n",
         "# accuracy given .8 train, .1 val, .1 test"
       ],
-      "execution_count": 19,
+      "execution_count": 0,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1026,11 +1026,11 @@
       "metadata": {
         "id": "JvA4ECSU1IDr",
         "colab_type": "code",
+        "outputId": "d240b155-9a40-4205-a923-f30fecad2492",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 68
-        },
-        "outputId": "d240b155-9a40-4205-a923-f30fecad2492"
+        }
       },
       "cell_type": "code",
       "source": [
@@ -1040,7 +1040,7 @@
         "\n",
         "# yep"
       ],
-      "execution_count": 20,
+      "execution_count": 0,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1062,11 +1062,11 @@
       "metadata": {
         "id": "HTtmWOJc1kg0",
         "colab_type": "code",
+        "outputId": "41df4d74-5b42-4e0e-d3e1-66014160bc49",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 34
-        },
-        "outputId": "41df4d74-5b42-4e0e-d3e1-66014160bc49"
+        }
       },
       "cell_type": "code",
       "source": [
@@ -1076,7 +1076,7 @@
         "# AUC is 0.5 = model has no discrimination \n",
         "# capacity to distinguish between positive class and negative class"
       ],
-      "execution_count": 21,
+      "execution_count": 0,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1096,17 +1096,17 @@
       "metadata": {
         "id": "b-Efp0zg1q_G",
         "colab_type": "code",
+        "outputId": "b3a92254-db2f-413d-e4a4-5ad8bf15fcc7",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 224
-        },
-        "outputId": "b3a92254-db2f-413d-e4a4-5ad8bf15fcc7"
+        }
       },
       "cell_type": "code",
       "source": [
         "print(classification_report(y_val, y_pred))"
       ],
-      "execution_count": 23,
+      "execution_count": 0,
       "outputs": [
         {
           "output_type": "stream",
@@ -1137,17 +1137,17 @@
       "metadata": {
         "id": "Beigioj316MZ",
         "colab_type": "code",
+        "outputId": "047e3cd5-f22d-4ed4-e566-3c1c581840ac",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 275
-        },
-        "outputId": "047e3cd5-f22d-4ed4-e566-3c1c581840ac"
+        }
       },
       "cell_type": "code",
       "source": [
         "!pip install category_encoders"
       ],
-      "execution_count": 24,
+      "execution_count": 0,
       "outputs": [
         {
           "output_type": "stream",
@@ -1175,11 +1175,11 @@
       "metadata": {
         "id": "dD_bQ6Hp2AXH",
         "colab_type": "code",
+        "outputId": "2b452167-62d5-4c75-f856-2144b2639fb2",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 139
-        },
-        "outputId": "2b452167-62d5-4c75-f856-2144b2639fb2"
+        }
       },
       "cell_type": "code",
       "source": [
@@ -1196,7 +1196,7 @@
         "pipeline.fit(X_train, y_train)\n",
         "y_pred = pipeline.predict(X_val)"
       ],
-      "execution_count": 25,
+      "execution_count": 0,
       "outputs": [
         {
           "output_type": "stream",
@@ -1216,11 +1216,11 @@
       "metadata": {
         "id": "Qq5KxhG12GCI",
         "colab_type": "code",
+        "outputId": "71a71185-4deb-4277-d692-41f788842724",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 34
-        },
-        "outputId": "71a71185-4deb-4277-d692-41f788842724"
+        }
       },
       "cell_type": "code",
       "source": [
@@ -1231,7 +1231,7 @@
         "# and apply logistic regression\n",
         "# slightly better accuracy, but only 1 percent"
       ],
-      "execution_count": 27,
+      "execution_count": 0,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1251,11 +1251,11 @@
       "metadata": {
         "id": "om8zzC1c2JK8",
         "colab_type": "code",
+        "outputId": "41172a20-bb1b-4c81-f665-bd2df998c460",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 34
-        },
-        "outputId": "41172a20-bb1b-4c81-f665-bd2df998c460"
+        }
       },
       "cell_type": "code",
       "source": [
@@ -1266,7 +1266,7 @@
         "# interpretation: there is a 67% chance that the model will be able\n",
         "# to successfully distinguish between positive and negative class"
       ],
-      "execution_count": 28,
+      "execution_count": 0,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1286,17 +1286,17 @@
       "metadata": {
         "id": "aTYXeMpD2qkj",
         "colab_type": "code",
+        "outputId": "f7ee2547-9cfb-4570-c7d0-d43a0b8f4b3f",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 170
-        },
-        "outputId": "f7ee2547-9cfb-4570-c7d0-d43a0b8f4b3f"
+        }
       },
       "cell_type": "code",
       "source": [
         "print(classification_report(y_val, y_pred))"
       ],
-      "execution_count": 29,
+      "execution_count": 0,
       "outputs": [
         {
           "output_type": "stream",
@@ -1319,11 +1319,11 @@
       "metadata": {
         "id": "65SuMxBN29E8",
         "colab_type": "code",
+        "outputId": "3f1e119a-3f6a-492f-8f87-e67458b71734",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 51
-        },
-        "outputId": "3f1e119a-3f6a-492f-8f87-e67458b71734"
+        }
       },
       "cell_type": "code",
       "source": [
@@ -1331,7 +1331,7 @@
         "\n",
         "confusion_matrix(y_val, y_pred)"
       ],
-      "execution_count": 30,
+      "execution_count": 0,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1352,11 +1352,11 @@
       "metadata": {
         "id": "0-XYTnrt2_OA",
         "colab_type": "code",
+        "outputId": "fafc34cd-e37e-4d24-e882-32731de66b5a",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 277
-        },
-        "outputId": "fafc34cd-e37e-4d24-e882-32731de66b5a"
+        }
       },
       "cell_type": "code",
       "source": [
@@ -1372,7 +1372,7 @@
         "\n",
         "confusion_viz(y_val, y_pred);"
       ],
-      "execution_count": 31,
+      "execution_count": 0,
       "outputs": [
         {
           "output_type": "display_data",
@@ -1392,11 +1392,11 @@
       "metadata": {
         "id": "-w5jwaVH3nq_",
         "colab_type": "code",
+        "outputId": "6dc8fdc3-5e77-42bd-8fb9-34665a7a2194",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 1694
-        },
-        "outputId": "6dc8fdc3-5e77-42bd-8fb9-34665a7a2194"
+        }
       },
       "cell_type": "code",
       "source": [
@@ -1407,7 +1407,7 @@
         "feature_names = pipeline.named_steps['onehotencoder'].transform(X_train).columns\n",
         "pd.Series(coefficients, feature_names).sort_values().plot.barh(color='gray');"
       ],
-      "execution_count": 33,
+      "execution_count": 0,
       "outputs": [
         {
           "output_type": "display_data",
