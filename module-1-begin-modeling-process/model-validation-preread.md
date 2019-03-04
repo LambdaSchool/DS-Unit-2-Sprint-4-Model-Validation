@@ -1,3 +1,15 @@
+# Begin the modeling process
+
+### Model Validation
+- [Why care about model validation?](#why-care-about-model-validation)
+- [Are there other model validation methods, beyond train/test split?](#are-there-other-model-validation-methods-beyond-traintest-split)
+- [What is cross-validation?](#what-is-cross-validation)
+- [Why hold out an independent test set?](#why-hold-out-an-independent-test-set)
+
+### Baselines
+- [Why begin with baselines?](#why-begin-with-baselines)
+- [What does baseline mean?](#what-does-baseline-mean)
+
 ## Why care about model validation?
 
 Rachel Thomas, [How (and why) to create a good validation set](https://www.fast.ai/2017/11/13/validation-sets/)
