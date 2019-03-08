@@ -10,6 +10,7 @@
 - [Why begin with baselines?](#why-begin-with-baselines)
 - [What does baseline mean?](#what-does-baseline-mean)
 
+
 ## Why care about model validation?
 
 Rachel Thomas, [How (and why) to create a good validation set](https://www.fast.ai/2017/11/13/validation-sets/)
@@ -30,6 +31,7 @@ James, Witten, Hastie, Tibshirani, [An Introduction to Statistical Learning](htt
 
 > On a similar note, suppose that we have clinical measurements (e.g. weight, blood pressure, height, age, family history of disease) for a number of patients, as well as information about whether each patient has diabetes. We can use these patients to train a statistical learning method to predict risk of diabetes based on clinical measurements. In practice, we want this method to accurately predict diabetes risk for _future patients_ based on their clinical measurements. We are not very interested in whether or not the method accurately predicts diabetes risk for patients used to train the model, since we already know which of those patients have diabetes.
 
+
 ## Are there other model validation methods, beyond train/test split?
 
 Yes. We'll look at 4 model validation methods:
@@ -45,11 +47,13 @@ Yes. We'll look at 4 model validation methods:
 
 <sup>Source: https://sebastianraschka.com/blog/2018/model-evaluation-selection-part4.html</sup>
 
+
 ## What is cross-validation?
 
 For a great explanation of cross-validation, with examples and pictures, **please read the first 10 pages of [_A Programmer’s Guide to Data Mining_, Chapter 5](http://guidetodatamining.com/chapter5/).** 
 
 ![](https://i.imgur.com/vvYjYxh.png)
+
 
 ## Why hold out an independent test set?
 
@@ -63,7 +67,6 @@ Owen Zhang, [Winning Data Science Competitions](https://www.slideshare.net/OwenZ
 Hastie, Tibshirani, and Friedman, [The Elements of Statistical Learning](http://statweb.stanford.edu/~tibs/ElemStatLearn/), Chapter 7: Model Assessment and Selection
 
 > If we are in a data-rich situation, the best approach is to randomly divide the dataset into three parts: a training set, a validation set, and a test set. The training set is used to fit the models; the validation set is used to estimate prediction error for model selection; the test set is used for assessment of the generalization error of the final chosen model. Ideally, the test set should be kept in a "vault," and be brought out only at the end of the data analysis. Suppose instead that we use the test-set repeatedly, choosing the model with the smallest test-set error. Then the test set error of the final chosen model will underestimate the true test error, sometimes substantially.
-
 
 Andreas Mueller and Sarah Guido, [Introduction to Machine Learning with Python](https://books.google.com/books?id=1-4lDQAAQBAJ&pg=PA270)
 
@@ -80,6 +83,7 @@ Hadley Wickham, [R for Data Science](https://r4ds.had.co.nz/model-intro.html#hyp
 > This is necessary because to confirm a hypothesis you must use data independent of the data that you used to generate the hypothesis. Otherwise you will be over optimistic. There is absolutely nothing wrong with exploration, but you should never sell an exploratory analysis as a confirmatory analysis because it is fundamentally misleading.
 
 > If you are serious about doing an confirmatory analysis, one approach is to split your data into three pieces before you begin the analysis.
+
 
 ## Why begin with baselines?
 
@@ -104,6 +108,7 @@ My mentor's advice is echoed and elaborated in several sources:
 [*Data Science for Business*](https://books.google.com/books?id=4ZctAAAAQBAJ&pg=PT276), Chapter 7.3: Evaluation, Baseline Performance, and Implications for Investments in Data
 
 > *Consider carefully what would be a reasonable baseline against which to compare model performance.* This is important for the data science team in order to understand whether they indeed are improving performance, and is equally important for demonstrating to stakeholders that mining the data has added value.
+
 
 ## What does baseline mean?
 
